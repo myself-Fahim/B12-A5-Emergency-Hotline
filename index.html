@@ -28,29 +28,29 @@
     </head>
     <body>
         <header class=" m-auto  mt-[24px]">
-            <nav class="flex justify-between items-center mr-[60px] ml-[60px]">
-                <div class=" flex items-center gap-[10px]">
+            <nav class="flex flex-col lg:flex lg:flex-row justify-between items-center mr-[60px] ml-[60px]">
+                <div class=" flex items-center justify-center mb-[20px] lg:mb-0 lg:justify-start gap-[10px]">
                     <img class=" w-[15%]" src="./assets/logo.png" alt>
                     <img class="w-[35%]" src="./assets/water.svg" alt>
                 </div>
 
-                <div class="flex gap-[15px]">
+                <div class="flex flex-wrap justify-center gap-[1em] lg:justify-end">
                     <div
-                        class=" w-[123px] h-[48px] bg-[#41ff6b1a] flex items-center justify-center gap-[10px] rounded-[50px] p-2">
+                        class=" w-[7.6em] h-[3em] bg-[#41ff6b1a] flex items-center justify-center gap-[0.5em] rounded-[50px] p-2">
                         <h1 class="font-[Inter] font-[900] text-[#000]">0</h1>
                         <img class="h-[70%]" src="./assets/heart.png"
                             alt>
                     </div>
 
                     <div
-                        class=" w-[123px] h-[48px] bg-[#41ff6b1a] flex items-center justify-center gap-[10px] rounded-[50px] p-2">
+                        class=" w-[7.6em] h-[3em] bg-[#41ff6b1a] flex items-center justify-center gap-[0.5em] rounded-[50px] p-2">
                         <h1 class="font-[Inter] font-[900] text-[#000]">0</h1>
                         <img class="h-[70%]" src="./assets/coin.png"
                             alt>
                     </div>
 
                     <div
-                        class=" w-[123px] h-[48px] bg-[#00A63E] text-[white] flex items-center justify-center gap-[10px] rounded-[50px] p-2 ">
+                        class=" w-[7.6em] h-[3em] bg-[#00A63E] text-[white] flex items-center justify-center gap-[0.5rem] rounded-[50px] p-2 ">
                         <h1>2</h1>
                         <h1>Copy</h1>
 
@@ -74,7 +74,7 @@
             </section>
         </header>
 
-        <main class="flex justify-center gap-[30px]">
+        <main class="flex justify-center p-12 gap-[30px] hidden">
 
             <section class="grid grid-cols-3 gap-[30px]">
                 <div
@@ -99,9 +99,126 @@
                         class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
 
                     <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
                     ">All</h1>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between gap-2">
+                        <button
+                            class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
+                        text-[#5C5C5C]">
+                            <img src="./assets/copy icon.svg" alt>
+                            <h1>Copy</h1>
+                        </button>
+
+                        <button
+                            class="flex py-1 px-10 justify-center gap-1 items-center rounded-[8px] bg-[#00A63E]">
+                            <span class="text-[white]"><i
+                                    class="fa-solid fa-phone"></i></span>
+                            <h1
+                                class="text-[white] font-[Roboto] font-[400]">Call</h1>
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="  p-4 rounded-[12px] bg-[white] shadow-md shadow-[#00000026]">
+                    <div class="flex justify-between items-center mb-[16px]">
+                        <div class=" p-3 rounded-[12px] bg-[#FFE3E2]">
+                            <img class="h-[1.5em]" src="./assets/police.png"
+                                alt>
+                        </div>
+                        <button>
+                            <img class="h-[1em]" src="./assets/heart.svg" alt>
+                        </button>
+                    </div>
+                    <h1
+                        class="hind text-[1.1rem] text-[#111]">Police Helpline Number</h1>
+                    <h1
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Police</h1>
+                    <h1
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+
+                    <h1
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Police</h1>
+                    <div class="flex justify-between gap-2">
+                        <button
+                            class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
+                        text-[#5C5C5C]">
+                            <img src="./assets/copy icon.svg" alt>
+                            <h1>Copy</h1>
+                        </button>
+
+                        <button
+                            class="flex py-1 px-10 justify-center gap-1 items-center rounded-[8px] bg-[#00A63E]">
+                            <span class="text-[white]"><i
+                                    class="fa-solid fa-phone"></i></span>
+                            <h1
+                                class="text-[white] font-[Roboto] font-[400]">Call</h1>
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="  p-4 rounded-[12px] bg-[white] shadow-md shadow-[#00000026]">
+                    <div class="flex justify-between items-center mb-[16px]">
+                        <div class=" p-3 rounded-[12px] bg-[#FFE3E2]">
+                            <img class="h-[1.5em]" src="./assets/fire-service.png"
+                                alt>
+                        </div>
+                        <button>
+                            <img class="h-[1em]" src="./assets/heart.svg" alt>
+                        </button>
+                    </div>
+                    <h1
+                        class="hind text-[1.1rem] text-[#111]">Fire Service Number</h1>
+                    <h1
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Fire Service</h1>
+                    <h1
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+
+                    <h1
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Fire</h1>
+                    <div class="flex justify-between gap-2">
+                        <button
+                            class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
+                        text-[#5C5C5C]">
+                            <img src="./assets/copy icon.svg" alt>
+                            <h1>Copy</h1>
+                        </button>
+
+                        <button
+                            class="flex py-1 px-10 justify-center gap-1 items-center rounded-[8px] bg-[#00A63E]">
+                            <span class="text-[white]"><i
+                                    class="fa-solid fa-phone"></i></span>
+                            <h1
+                                class="text-[white] font-[Roboto] font-[400]">Call</h1>
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="  p-4 rounded-[12px] bg-[white] shadow-md shadow-[#00000026]">
+                    <div class="flex justify-between items-center mb-[16px]">
+                        <div class=" p-3 rounded-[12px] bg-[#FFE3E2]">
+                            <img class="h-[1.5em]" src="./assets/ambulance.png"
+                                alt>
+                        </div>
+                        <button>
+                            <img class="h-[1em]" src="./assets/heart.svg" alt>
+                        </button>
+                    </div>
+                    <h1
+                        class="hind text-[1.1rem] text-[#111]">Ambulance Service</h1>
+                    <h1
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Ambulance</h1>
+                    <h1
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">1994-999999</h1>
+
+                    <h1
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Health</h1>
+                    <div class="flex justify-between gap-2">
                         <button
                             class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
                         text-[#5C5C5C]">
@@ -131,18 +248,16 @@
                         </button>
                     </div>
                     <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
+                        class="hind text-[1.1rem] text-[#111]">Women & Child Helpline</h1>
                     <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Women & Child Helpline</h1>
                     <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">109</h1>
 
                     <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Help</h1>
+                    <div class="flex justify-between gap-2">
                         <button
                             class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
                         text-[#5C5C5C]">
@@ -172,141 +287,16 @@
                         </button>
                     </div>
                     <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
+                        class="hind text-[1.1rem] text-[#111]">Anti-Corruption Helpline</h1>
                     <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Anti-Corruption</h1>
                     <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">106</h1>
 
                     <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
-                        <button
-                            class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
-                        text-[#5C5C5C]">
-                            <img src="./assets/copy icon.svg" alt>
-                            <h1>Copy</h1>
-                        </button>
-
-                        <button
-                            class="flex py-1 px-10 justify-center gap-1 items-center rounded-[8px] bg-[#00A63E]">
-                            <span class="text-[white]"><i
-                                    class="fa-solid fa-phone"></i></span>
-                            <h1
-                                class="text-[white] font-[Roboto] font-[400]">Call</h1>
-                        </button>
-                    </div>
-                </div>
-
-                <div
-                    class="  p-4 rounded-[12px] bg-[white] shadow-md shadow-[#00000026]">
-                    <div class="flex justify-between items-center mb-[16px]">
-                        <div class=" p-3 rounded-[12px] bg-[#FFE3E2]">
-                            <img class="h-[1.5em]" src="./assets/emergency.png"
-                                alt>
-                        </div>
-                        <button>
-                            <img class="h-[1em]" src="./assets/heart.svg" alt>
-                        </button>
-                    </div>
-                    <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
-                    <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
-                    <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
-
-                    <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
-                        <button
-                            class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
-                        text-[#5C5C5C]">
-                            <img src="./assets/copy icon.svg" alt>
-                            <h1>Copy</h1>
-                        </button>
-
-                        <button
-                            class="flex py-1 px-10 justify-center gap-1 items-center rounded-[8px] bg-[#00A63E]">
-                            <span class="text-[white]"><i
-                                    class="fa-solid fa-phone"></i></span>
-                            <h1
-                                class="text-[white] font-[Roboto] font-[400]">Call</h1>
-                        </button>
-                    </div>
-                </div>
-
-                <div
-                    class="  p-4 rounded-[12px] bg-[white] shadow-md shadow-[#00000026]">
-                    <div class="flex justify-between items-center mb-[16px]">
-                        <div class=" p-3 rounded-[12px] bg-[#FFE3E2]">
-                            <img class="h-[1.5em]" src="./assets/emergency.png"
-                                alt>
-                        </div>
-                        <button>
-                            <img class="h-[1em]" src="./assets/heart.svg" alt>
-                        </button>
-                    </div>
-                    <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
-                    <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
-                    <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
-
-                    <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
-                        <button
-                            class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
-                        text-[#5C5C5C]">
-                            <img src="./assets/copy icon.svg" alt>
-                            <h1>Copy</h1>
-                        </button>
-
-                        <button
-                            class="flex py-1 px-10 justify-center gap-1 items-center rounded-[8px] bg-[#00A63E]">
-                            <span class="text-[white]"><i
-                                    class="fa-solid fa-phone"></i></span>
-                            <h1
-                                class="text-[white] font-[Roboto] font-[400]">Call</h1>
-                        </button>
-                    </div>
-                </div>
-
-                <div
-                    class="  p-4 rounded-[12px] bg-[white] shadow-md shadow-[#00000026]">
-                    <div class="flex justify-between items-center mb-[16px]">
-                        <div class=" p-3 rounded-[12px] bg-[#FFE3E2]">
-                            <img class="h-[1.5em]" src="./assets/emergency.png"
-                                alt>
-                        </div>
-                        <button>
-                            <img class="h-[1em]" src="./assets/heart.svg" alt>
-                        </button>
-                    </div>
-                    <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
-                    <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
-                    <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
-
-                    <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Govt.</h1>
+                    <div class="flex justify-between gap-2">
                         <button
                             class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
                         text-[#5C5C5C]">
@@ -336,18 +326,16 @@
                         </button>
                     </div>
                     <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
+                        class="hind text-[1.1rem] text-[#111]">Electricity Helpline</h1>
                     <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Electricity Outage</h1>
                     <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">16216</h1>
 
                     <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Electricity</h1>
+                    <div class="flex justify-between gap-2">
                         <button
                             class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
                         text-[#5C5C5C]">
@@ -377,18 +365,16 @@
                         </button>
                     </div>
                     <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
+                        class="hind text-[1.1rem] text-[#111]">Brac Helpline</h1>
                     <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Brac</h1>
                     <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">16445</h1>
 
                     <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">NGO</h1>
+                    <div class="flex justify-between gap-2">
                         <button
                             class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
                         text-[#5C5C5C]">
@@ -418,18 +404,16 @@
                         </button>
                     </div>
                     <h1
-                        class="hind text-[1.1rem] text-[#111]">National
-                        Emergency Number</h1>
+                        class="hind text-[1.1rem] text-[#111]">Bangladesh Railway Helpline</h1>
                     <h1
-                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">National
-                        Emergency</h1>
+                        class="text-[#5C5C5C] text-[0.9rem] font-[Roboto]">Bangladesh Railway</h1>
                     <h1
-                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">999</h1>
+                        class="font-[Roboto] text-[1.5rem] font-[700] mt-[22px]">163</h1>
 
                     <h1
-                        class="bg-[#F2F2F2] mb-[22px] inline-block py-1.5 px-4 rounded-[9999px]
-                    ">All</h1>
-                    <div class="flex justify-between">
+                        class="bg-[#F2F2F2] mb-[22px] text-[grey] inline-block py-1.5 px-4 rounded-[9999px]
+                    ">Travel</h1>
+                    <div class="flex justify-between gap-2">
                         <button
                             class="flex py-1 border-1 border-[#D4D6D5] px-10 justify-center gap-1 rounded-[8px] font-[Roboto] font-[400]
                         text-[#5C5C5C]">
@@ -448,11 +432,25 @@
                 </div>
             </section>
 
+            <section class="flex-1 p-[24px] rounded-[12px] bg-[#FFF] rounder-[12px] shadow-md">
+                <div class="flex justify-between items-center mb-[16px]">
+                    <div class="flex items-center gap-2">
+                        <img class="w-[1.2em]" src="./assets/clock.svg" alt>
+                        <h1 class="font-[Roboto] text-[1.3rem] font-[500]">Call History</h1>
+                    </div>
+                    <button class="bg-[#00A63E] text-[white] py-[12px] px-[36px] rounded-[50px]">
+                        <h1>Clear</h1>
+                    </button>
+                </div>
 
-
-            <section>
-              
-                       
+                
+                <!-- <div class="history-section">
+                    <div>
+                        <h1 class="service-name">Fire Service Number</h1>
+                        <h6 class="service-number" >999</h6>
+                    </div>
+                    <h1>11:36:58 AM</h1>
+                </div> -->
 
             </section>
 

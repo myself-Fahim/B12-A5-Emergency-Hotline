@@ -7,3 +7,22 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.history-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    padding: 16px;
+}
+.service-name{
+    color: #111;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.service-number{
+    color:grey;
+    font-size: 1rem;
+}
