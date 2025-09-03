@@ -2,14 +2,14 @@ console.log('hello')
 
 const call_btn = document.getElementsByClassName('call-button-class')
 for (let elements of call_btn) {
-    // elements.addEventListener('click', function () {
-    //     const coin = document.getElementById('coin-box');
-    //     let newCoin = parseInt(coin.innerText);
-    //     if (newCoin >= 20) {
-    //         newCoin = newCoin - 20;
-    //         coin.innerText = newCoin.toString();
-    //     }
-    // })
+    elements.addEventListener('click', function () {
+        const coin = document.getElementById('coin-box');
+        let newCoin = parseInt(coin.innerText);
+        if (newCoin >= 20) {
+            newCoin = newCoin - 20;
+            coin.innerText = newCoin.toString();
+        }
+    })
 
     elements.addEventListener('click', function(){
 
